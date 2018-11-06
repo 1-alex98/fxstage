@@ -137,6 +137,10 @@ public class BorderlessScene extends Scene {
 		controller.setResizable(bool);
 	}
 
+	public void setMinimizable(boolean minimizable) {
+		controller.setMinimizable(minimizable);
+	}
+
 	/**
 	 * Check the maximized state of the application.
 	 *
